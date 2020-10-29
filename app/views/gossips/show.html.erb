@@ -1,0 +1,6 @@
+<h1>gossip</h1>
+
+<%=@gossip.title%>
+<%=@gossip.content%>
+<%=@gossip.created_at%><br>
+<%= link_to user_path(@gossip.user.id), class:"btn btn-primary" do %>profil de l'utilisateur<% end %>
