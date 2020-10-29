@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 #  get 'gossips/:user_entry', to: 'gossips#create'
 
   resources :gossips
-  resources :users, only: [:show]
+  resources :users
   resources :cities, only: [:show]
 
 end
